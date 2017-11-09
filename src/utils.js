@@ -1,15 +1,16 @@
-function sum(a, b) {
+function _somma(a, b) {
     return a + b;
 }
 
-const funzioneComposta = (x, y) => {
+const _funzioneComposta = (x, y) => {
+    // return _somma(x,y) * 2 + 1; // così non funziona lo stub della funzione
     return utils.somma(x,y) * 2 + 1;
 }
 
 
 const utils = {
-    somma: sum,
-    funzioneComposta: funzioneComposta
+    somma: _somma,
+    funzioneComposta: _funzioneComposta
 }
 
 module.exports = utils;
