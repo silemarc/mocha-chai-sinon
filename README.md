@@ -1,4 +1,4 @@
-# Stubbing HTTP Requests With Sinon
+# Stubbing  With Sinon
 
 Project base...
 
